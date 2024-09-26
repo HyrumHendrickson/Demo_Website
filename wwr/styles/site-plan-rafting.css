@@ -10,7 +10,7 @@ Fonts are separated by a & */
   --primary-color: #6d90a9   ;
   --secondary-color: #E7C24F ;
   --accent1-color: #f0b331;
-  --accent2-color: rgb(60, 159, 86);
+  --accent2-color: #61dc67 ;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Jacquarda Bastarda 9", sans-serif;
