@@ -1,6 +1,10 @@
 
-
-
+.gray {
+  background-color: gray;
+}
+.yellow {
+  background-color: yellow;
+}
 body {
   background-color: #0000ff;
   color: #aaa;
