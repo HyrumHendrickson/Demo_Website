@@ -30,10 +30,10 @@ main section {
 }
 #background {
     height: 725px;
-    background-color: red
+    background-color: lightblue;
 }
 body {
-    background-color: orange;
+    background-color: rgb(209, 178, 121);
 }
 header {
     background-color: lightblue;
@@ -45,11 +45,11 @@ h4 {
     color:grey;
 }
 nav a:hover {
-    background-color: darkred;
+    background-color: rgb(209, 178, 121);
     color:gray
 }
 .book {
-    background-color: lightgreen;
+    background-color: pink;
     color: gray;
     text-decoration: none;
 }
@@ -59,10 +59,10 @@ nav a:hover {
     text-decoration: none;
 }
 .book:hover {
-    background-color: blueviolet;
+    background-color: lightblue;
 }
 .join:hover {
-    background-color: purple;
+    background-color: lightblue;
 }
 .msg h2 {
     color: gray;
@@ -71,10 +71,10 @@ nav a:hover {
     color: gray;
 }
 .msg {
-    background-color: blue;
+    background-color: lightblue;
 }
 footer {
-    background-color: green;
+    background-color: lightgreen;
     color: gray;
 }
  
