@@ -1,17 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+:root {
+    --default_font: "Jacquarda Bastarda 9", "Lato", serif;
+    --fancy_font: "Ole", "Lato", serif;
+}
+.home-title {
+    font-size: 4em;
+    font-family: var(--fancy_font);
+    margin-top: 10px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: var(--default_font);
+    font-size: 22px;
 }
 nav a {
     text-align: center;
-    color: gray;
     text-decoration: none;
+    padding: 35px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width:100%;
@@ -34,50 +49,37 @@ main section {
 }
 body {
     background-color: rgb(209, 178, 121);
+    margin: 0;
+    padding: 0; 
 }
 header {
     background-color: lightblue;
 }
-.home-title {
-    color: gray;
-}
-h4 {
-    color:grey;
-}
 nav a:hover {
     background-color: rgb(209, 178, 121);
-    color:gray
 }
-.book {
+.book, .join {
     background-color: pink;
-    color: gray;
     text-decoration: none;
-}
-.join {
-    background-color: pink;
-    color: gray;
-    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
-    background-color: lightblue;
+    background-color: lightgreen;
 }
 .join:hover {
-    background-color: lightblue;
-}
-.msg h2 {
-    color: gray;
-}
-.msg p {
-    color: gray;
+    background-color: lightgreen;
 }
 .msg {
     background-color: lightblue;
+    padding: 35px;
 }
 footer {
     background-color: lightgreen;
-    color: gray;
+    padding: 25px;
+    margin-top: 200px;
 }
- 
 footer p {
     font-size: 1.2em;
 }    
@@ -85,9 +87,37 @@ footer p a:hover {
     text-decoration: underline;
 }
 footer a {
-    color:gray;
     text-decoration: none;
+    color: pink;
+}
+.link{
+    padding: 5px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: black;
 }
 footer a:hover {
-    color:gray;
+    color:black;
+    background-color: lightblue;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.msg p {
+    padding-bottom: 15px;
+}
+.social_img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
