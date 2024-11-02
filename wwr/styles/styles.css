@@ -238,6 +238,7 @@ main section img {
     }
     nav, footer {
         flex-direction: column;
+        width: 100%;
     }
     nav a {
         display: block;
