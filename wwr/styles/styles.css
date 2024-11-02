@@ -277,6 +277,8 @@ main section img {
     footer {
         margin-top: 25px;
         width: 100%;
+        padding: 0px;
+        
     }
     .link {
         margin: 50px;
