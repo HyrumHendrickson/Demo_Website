@@ -247,6 +247,9 @@ main section img {
     #hero {
         margin-top: 0;
     }
+    #hero-img {
+        width: 100%;
+    }
     #hero-msg {
         margin-top: 0;
     }
@@ -275,7 +278,7 @@ main section img {
         margin-top: 25px;
     }
     .link {
-        padding: 30px;
+        margin: 50px;
     }
 }
         
