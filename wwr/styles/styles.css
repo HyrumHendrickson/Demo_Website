@@ -254,7 +254,7 @@ main section img {
         display: none;
     }
     #hero-msg h1 {
-        color: #6f7364;
+        color: black;
     }
     .home-title {
         font-size: 25px;
@@ -273,6 +273,9 @@ main section img {
     }
     footer {
         margin-top: 25px;
+    }
+    .link {
+        padding: 30px;
     }
 }
         
