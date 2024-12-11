@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
 /* this css is the same for each page*/
+
 :root {
     --primary-color: #82bcbe;
     --secondary-color: #dddddd;
