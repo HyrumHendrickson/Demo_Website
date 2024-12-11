@@ -1,0 +1,225 @@
+/* this css is the same for each page*/
+:root {
+    --primary-color: #82bcbe;
+    --secondary-color: #dddddd;
+    --accent1-color: #c49c27;
+    --accent2-color: #49bb82;
+    --background-color: #000000;
+
+    --heading-font: Ephesis, Helvetica, sans-serif;
+    --paragraph-font: Lato, Helvetica, sans-serif;
+
+    --headline-color-on-white: var(--primary-color);
+    --headline-color-on-color: var(--secondary-color);
+    --paragraph-color-on-white: var(--primary-color);
+    --paragraph-color-on-color: var(--secondary-color);
+    --paragraph-background-color: var(--primary-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-background-color: var(--accent1-color);
+    --nav-hover-link-color: var(--secondary-color);
+    --nav-hover-background-color: var(--accent2-color);
+}
+body {
+    font-size: 18px;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-height: 300px;
+    width: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+h2 {
+    text-align: center;
+}
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+}
+
+header {
+    height: 0px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+header img {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    
+}
+header > h1, header > h2 {
+    color: var(--headline-color-on-color);
+    font-size: 2em;
+}
+header > h1 {
+    font-size: 3em;
+}
+p {
+    font-family: var(--paragraph-font);
+    
+    padding: 1em;
+    line-height: 1.6;
+}
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.header-link {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 10px;
+
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(16, 6.25%);
+    
+}
+footer {
+    height: 100px;
+    background-color: var(--nav-background-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-link {
+    text-decoration: none;
+    color: var(--nav-hover-link-color);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.footer-link:hover {
+    background-color: var(--accent2-color);
+}
+
+
+/* this css is for the index page */
+
+#index-header {
+    grid-column: 3/7;
+    grid-row: 1/2;
+    padding-top: 50px;
+    justify-self: center;
+    font-size: 2.5em;
+}
+#chalkboard-img {
+    grid-column: 2/8;
+    grid-row: 3/9;
+    transform: scale(1.5);
+    width: 60%;
+}
+#index-text1 {
+    grid-column: 2/8;
+    grid-row: 6/7;
+    text-align: center;
+}
+#index-text1 h2 {
+    padding: 0px;
+    margin: 10px;
+    margin-top: 50px;
+}
+#index-text1 p {
+    padding: 0px;
+    margin: 10px;
+}
+#index-banner {
+    grid-row: 9/11;
+    grid-column: 1/9;
+    background-color: var(--accent1-color);
+    height: 100%;
+    width: 150%;
+    justify-self: center;
+    z-index: -1;
+    
+}
+#turing-img {
+    grid-row: 9/11;
+    grid-column: 3;
+    height: 250px;
+    width: auto;
+    justify-self: center;
+}
+#index-turing-text {
+    grid-column: 2;
+    grid-row: 9/11;
+    text-align: right;
+    color: black;
+    
+}
+
+#gauss-img {
+    grid-row: 9/11;
+    grid-column: 7;
+    height: 250px;
+    width: auto;
+    justify-self: center;
+
+}
+#index-gauss-text {
+    grid-column: 6;
+    grid-row: 9/11;
+    text-align: right;
+    color: black;
+    
+}
+.header2 {
+    padding-top: 45px;
+}
+#index-text2 {
+    grid-column: 1/3;
+    grid-row: 11/14;
+    text-align: center;
+    padding-top: 60px;
+
+}
+#index-text3 {
+    grid-column: 3/5;
+    grid-row: 11/14;
+    text-align: center;
+    padding-top: 60px;
+
+}
+#einstein-img {
+    grid-column: 6;
+    grid-row: 12;
+    transform: scale(1.75);
+    padding-top: 75px;
+    
+}
+main section {
+    grid-row: 15/16;
+}
